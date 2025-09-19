@@ -55,7 +55,7 @@
             </div>
             <div class="card">
                 <div class="title">
-                    Upscaled
+                    Downscaled
                 </div>
                 <div class="box downscaled">
                     Text
@@ -63,13 +63,51 @@
                 <div class="description">  
                     $$
                     \begin{pmatrix}
-                    0,5 & 0 \\
-                    0 & 0,5
+                    1/2 & 0 \\
+                    0 & 1/2
                     \end{pmatrix}
                     $$
                 </div>
                 <code>
                     matrix(.5, 0, 0, .5, 0, 0);
+                </code>
+            </div>
+            <div class="card">
+                <div class="title">
+                    Reflected Horizontally
+                </div>
+                <div class="box reflected-h">
+                    Text
+                </div>
+                <div class="description">  
+                    $$
+                    \begin{pmatrix}
+                    -1 & 0 \\
+                    0 & 1
+                    \end{pmatrix}
+                    $$
+                </div>
+                <code>
+                    matrix(-1, 0, 0, 1, 0, 0);
+                </code>
+            </div>
+            <div class="card">
+                <div class="title">
+                    Reflected Vertically
+                </div>
+                <div class="box reflected-v">
+                    Text
+                </div>
+                <div class="description">  
+                    $$
+                    \begin{pmatrix}
+                    1 & 0 \\
+                    0 & -1
+                    \end{pmatrix}
+                    $$
+                </div>
+                <code>
+                    matrix(1, 0, 0, -1, 0, 0);
                 </code>
             </div>
         </div>
